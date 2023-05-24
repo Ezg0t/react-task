@@ -1,12 +1,10 @@
 import Dishes from './pages/dishes'
-import './App.css'
+import './App.scss'
 function App() {
 
   return (
     <>
-      <div>
-        <Dishes />
-      </div>
+      <Dishes />
     </>
   )
 }
