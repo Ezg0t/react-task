@@ -12,7 +12,7 @@ Npm version 9.5.0
 3. Install the project dependencies by running the following command:
 > npm install 
 
-This will download and install all the required npm packages defined in the package.json file.
+This will download and install all the required npm packages defined in the package.json file.<br />
 4. Start the development server:
 > npm run dev 
 
