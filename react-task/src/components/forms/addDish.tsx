@@ -291,7 +291,6 @@ export const AddDishForm = () => {
                     onClick={handleAddDish}
                     disabled={isAnyRequiredFieldEmpty}
                 >
-
                     Add dish
                 </Button>
                 {isAnyRequiredFieldEmpty && <p className="required-fields">All fields must be filled</p>}
