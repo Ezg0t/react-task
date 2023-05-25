@@ -170,7 +170,7 @@ export const AddDishForm = () => {
                         fullWidth
                         required
                         type="number"
-                        inputProps={{ min: 1 }}
+                        inputProps={{ min: 1, max: 10 }}
                         value={spiciness_scale} id="outlined-basic" label="Spiciness scale (1-10)"
                         variant="outlined"
                         onChange={(e) => setSpiciness_scale(Number(e.target.value))}
